@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrateur\\Desktop\\DotNet\\DotNet.csproj": {}
+    "C:\\Users\\Administrateur\\Desktop\\DotNet\\Les exo\\DotNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrateur\\Desktop\\DotNet\\DotNet.csproj": {
+    "C:\\Users\\Administrateur\\Desktop\\DotNet\\Les exo\\DotNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DotNet\\DotNet.csproj",
+        "projectUniqueName": "C:\\Users\\Administrateur\\Desktop\\DotNet\\Les exo\\DotNet.csproj",
         "projectName": "DotNet",
-        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DotNet\\DotNet.csproj",
+        "projectPath": "C:\\Users\\Administrateur\\Desktop\\DotNet\\Les exo\\DotNet.csproj",
         "packagesPath": "C:\\Users\\Administrateur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DotNet\\obj\\",
+        "outputPath": "C:\\Users\\Administrateur\\Desktop\\DotNet\\Les exo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
