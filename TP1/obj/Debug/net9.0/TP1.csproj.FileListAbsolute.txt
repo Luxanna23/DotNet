@@ -1,0 +1,15 @@
+C:\Users\Administrateur\Desktop\DotNet\TP1\bin\Debug\net9.0\TP1.exe
+C:\Users\Administrateur\Desktop\DotNet\TP1\bin\Debug\net9.0\TP1.deps.json
+C:\Users\Administrateur\Desktop\DotNet\TP1\bin\Debug\net9.0\TP1.runtimeconfig.json
+C:\Users\Administrateur\Desktop\DotNet\TP1\bin\Debug\net9.0\TP1.dll
+C:\Users\Administrateur\Desktop\DotNet\TP1\bin\Debug\net9.0\TP1.pdb
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.AssemblyInfoInputs.cache
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.AssemblyInfo.cs
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.csproj.CoreCompileInputs.cache
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.sourcelink.json
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.dll
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\refint\TP1.dll
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.pdb
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\TP1.genruntimeconfig.cache
+C:\Users\Administrateur\Desktop\DotNet\TP1\obj\Debug\net9.0\ref\TP1.dll
