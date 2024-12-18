@@ -16,13 +16,18 @@ class ToutLesLivres {
 
     public void getAllLivres()
     {
-        for (int i = 0; i < Livres.Count; i++)
-        {
-            Livre livre = Livres[i];
-            Console.WriteLine($"Livre {i + 1}:");
-            Console.WriteLine($"Titre : {livre.titre}");
-            Console.WriteLine($"Année : {livre.annee}");
-            Console.WriteLine($"Auteur : {livre.Auteur}\n");
+        if (Livres.Count == 0){
+            Console.WriteLine("Bibliotheque vide.");
+        }
+        else {
+            for (int i = 0; i < Livres.Count; i++)
+            {
+                Livre livre = Livres[i];
+                Console.WriteLine($"Livre {i + 1}:");
+                Console.WriteLine($"Titre : {livre.titre}");
+                Console.WriteLine($"Année : {livre.annee}");
+                Console.WriteLine($"Auteur : {livre.Auteur}\n");
+            }
         }
     }
 
@@ -30,6 +35,7 @@ class ToutLesLivres {
         Livre livreTrouve = Livres.FirstOrDefault(livre => livre.titre.Equals(recherche, StringComparison.OrdinalIgnoreCase));
         if (livreTrouve != null)
         {
+            Console.WriteLine("vide");
             Console.WriteLine($"Livre : {livreTrouve.titre}, Auteur: {livreTrouve.Auteur}");
         }
         else

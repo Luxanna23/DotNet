@@ -3,32 +3,29 @@
 class Program {
     public static ToutLesLivres toutLesLivres = new ToutLesLivres();
     static void Main() {
-        Console.WriteLine("\n Bienvenue ! Que voulez vous faire ?\n 1. Ajouter un livre. \n 2. Afficher tous les livres. \n 3. Rechercher un livre par titre. \n 4. Supprimer un livre. \n 5. Quitter. \n");
-        
-        Console.Write("Choisissez une option : ");
-        string number = Console.ReadLine()!;
-        int option = Int32.Parse(number);
-
+        Console.WriteLine("Bienvenue !");
         bool quitter = false;
         while (quitter == false) {
+
+            Console.WriteLine("\n Que voulez vous faire ?\n 1. Ajouter un livre. \n 2. Afficher tous les livres. \n 3. Rechercher un livre par titre. \n 4. Supprimer un livre. \n 5. Quitter.");
+            
+            Console.Write("\n Choisissez une option : ");
+            string number = Console.ReadLine()!;
+            int option = Int32.Parse(number);
+
             switch (option) {
                 case 1:
                     bool ajouter = true;
                     while (ajouter) {
                         AjouterLivre();
-                        Console.Write("Voulez vous ajouter un autre livre? (o/n) : ");
+                        Console.Write("Voulez vous ajouter un autre livre? (o pour ajouter) : ");
                         string reponse = Console.ReadLine()!;
                         if (reponse == "o") {
                             ajouter = true;
                         }
-                        else if (reponse == "n") {
-                            ajouter = false;
-                            break;
-                        }
                         else {
                             Console.Write("Votre reponse ne correspond pas.");
                             ajouter = false;
-                            break;
                         }
                     }
                     quitter = false;
